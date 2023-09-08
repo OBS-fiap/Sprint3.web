@@ -1,0 +1,71 @@
+.principal-sobre{
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("../assets/background.svg");
+    background-repeat: no-repeat;
+    background-size:  cover; /* Faz a imagem cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+
+    display: grid;
+    grid-template-columns: 50% 50% 50% 50%; /* Três colunas de largura igual */
+    
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    
+    
+}
+
+.sobre-conteudo{
+    width: 50%;
+    grid-column: 2 / 3; /* Ocupa uma coluna */
+    margin: 0 20% 0 20%;
+}
+
+.dispositivo-img{
+    width: 100%;
+    align-items: center;
+}
+
+
+
+/* CSS das caixas de integrantes*/
+
+.container-integrantes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+
+    margin: 0 10% 10% 10%;
+}
+.integrante{
+    background-color: #6494FF;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    width: 30% ;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 1%;
+    
+}
+
+
+.integrante-img{
+    width: 60%;
+}
+
+.social-media-sobre{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-bottom: 15%;
+}
