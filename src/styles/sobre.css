@@ -1,8 +1,9 @@
+@import url(   'styles.css');
 .principal-sobre{
     width: 100%;
     height: 100vh;
 
-    background-image: url("../assets/background.svg");
+    background-image: url("../assets/background.svg") ;
     background-repeat: no-repeat;
     background-size:  cover; /* Faz a imagem cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem */
@@ -13,9 +14,6 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-
-    
-    
 }
 
 .sobre-conteudo{
@@ -29,7 +27,23 @@
     align-items: center;
 }
 
+.sobre-titulo{
+    font-family: 'roboto';
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
 
+    text-align: center;
+    padding-bottom: 2%
+}
+
+.sobre-texto{
+    font-family: 'roboto';
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: justify;
+}
 
 /* CSS das caixas de integrantes*/
 
@@ -49,7 +63,7 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     margin: 0 1%;
     
@@ -58,6 +72,9 @@
 
 .integrante-img{
     width: 60%;
+    padding-bottom: 10%;
+    align-items: center;
+    text-align: center;
 }
 
 .social-media-sobre{
@@ -65,7 +82,50 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding-top: 15% ;
+}
 
-    padding-bottom: 15%;
+.social-media-img{
+ margin: 0 5% 0 5%;   
+ flex-wrap: wrap;
+}
+
+
+
+.integrantes-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin-bottom: 5%;
+}
+
+.integrante-titulo{
+    font-family: 'roboto';
+    
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+
+    text-align: center;
+    padding-bottom: 2%
+}
+
+
+strong{
+    color: #002359;
+    
+}
+
+.integrante-texto{
+
+    font-family: 'roboto';
+    
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 5% 10% 0 10%;
 }
