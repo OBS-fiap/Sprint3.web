@@ -32,77 +32,77 @@ return (
     <div className="container-integrantes">
       <div className="integrante">
         <div>
-          <img className="integrante-img" src={Perfil} alt="Foto do integrante" />
+          <img className="integrante-img grid-item" src={Perfil} alt="Foto do integrante" />
         </div>
-        <p className="integrante-titulo">Olá, eu sou a <strong>Nicoly</strong></p>
-        <p className="integrante-titulo">RM 552410</p>
-        <p className="integrante-texto">is simply dummy text of the printing and typesetting industry
+        <p className="integrante-titulo grid-item3">Olá, eu sou a <strong>Nicoly</strong></p>
+        <p className="integrante-titulo grid-item5">RM 552410</p>
+        <p className="integrante-texto grid-item4 ">is simply dummy text of the printing and typesetting industry
           Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley</p>
-        <div className="social-media-sobre">
-          <a className="social-media-img" href="#"><img src={Github} alt="Logo do Github" /></a>
-          <a className="social-media-img" href="#"><img src={Instagram} alt="Logo Instagram" /></a>
-          <a className="social-media-img" href=""><img src={Linkedin} alt="Logo do linkedin" /></a>
+        <div className="social-media-sobre grid-item2">
+          <a className="social-media-img" href="#"><img className="sc-img" src={Github} alt="Logo do Github" /></a>
+          <a className="social-media-img" href="#"><img className="sc-img" src={Instagram} alt="Logo Instagram" /></a>
+          <a className="social-media-img" href=""><img className="sc-img" src={Linkedin} alt="Logo do linkedin" /></a>
         </div>
       </div>
       <div className="integrante">
         <div>
-          <img className="integrante-img" src={Perfil} alt="Foto do integrante" />
+          <img className="integrante-img grid-item" src={Perfil} alt="Foto do integrante" />
         </div>
-        <p className="integrante-titulo">Olá, eu sou a <strong>Nicoly</strong></p>
-        <p className="integrante-titulo">RM 552410</p>
-        <p className="integrante-texto">is simply dummy text of the printing and typesetting industry
+        <p className="integrante-titulo grid-item3">Olá, eu sou a <strong>Nicoly</strong></p>
+        <p className="integrante-titulo grid-item5">RM 552410</p>
+        <p className="integrante-texto grid-item4 ">is simply dummy text of the printing and typesetting industry
           Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley</p>
-        <div className="social-media-sobre">
-          <a className="social-media-img" href="#"><img src={Github} alt="Logo do Github" /></a>
-          <a className="social-media-img" href="#"><img src={Instagram} alt="Logo Instagram" /></a>
-          <a className="social-media-img" href=""><img src={Linkedin} alt="Logo do linkedin" /></a>
+        <div className="social-media-sobre grid-item2">
+          <a className="social-media-img" href="#"><img className="sc-img" src={Github} alt="Logo do Github" /></a>
+          <a className="social-media-img" href="#"><img className="sc-img" src={Instagram} alt="Logo Instagram" /></a>
+          <a className="social-media-img" href=""><img className="sc-img" src={Linkedin} alt="Logo do linkedin" /></a>
         </div>
       </div>
       <div className="integrante">
         <div>
-          <img className="integrante-img" src={Perfil} alt="Foto do integrante" />
+          <img className="integrante-img grid-item" src={Perfil} alt="Foto do integrante" />
         </div>
-        <p className="integrante-titulo">Olá, eu sou a <strong>Nicoly</strong></p>
-        <p className="integrante-titulo">RM 552410</p>
-        <p className="integrante-texto">is simply dummy text of the printing and typesetting industry
+        <p className="integrante-titulo grid-item3">Olá, eu sou a <strong>Nicoly</strong></p>
+        <p className="integrante-titulo grid-item5">RM 552410</p>
+        <p className="integrante-texto grid-item4 ">is simply dummy text of the printing and typesetting industry
           Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley</p>
-        <div className="social-media-sobre">
-          <a className="social-media-img" href="#"><img src={Github} alt="Logo do Github" /></a>
-          <a className="social-media-img" href="#"><img src={Instagram} alt="Logo Instagram" /></a>
-          <a className="social-media-img" href=""><img src={Linkedin} alt="Logo do linkedin" /></a>
+        <div className="social-media-sobre grid-item2">
+          <a className="social-media-img" href="#"><img className="sc-img" src={Github} alt="Logo do Github" /></a>
+          <a className="social-media-img" href="#"><img className="sc-img" src={Instagram} alt="Logo Instagram" /></a>
+          <a className="social-media-img" href=""><img className="sc-img" src={Linkedin} alt="Logo do linkedin" /></a>
         </div>
       </div>
       <div className="integrante">
         <div>
-          <img className="integrante-img" src={Perfil} alt="Foto do integrante" />
+          <img className="integrante-img grid-item" src={Perfil} alt="Foto do integrante" />
         </div>
-        <p className="integrante-titulo">Olá, eu sou a <strong>Nicoly</strong></p>
-        <p className="integrante-titulo">RM 552410</p>
-        <p className="integrante-texto">is simply dummy text of the printing and typesetting industry
+        <p className="integrante-titulo grid-item3">Olá, eu sou a <strong>Nicoly</strong></p>
+        <p className="integrante-titulo grid-item5">RM 552410</p>
+        <p className="integrante-texto grid-item4 ">is simply dummy text of the printing and typesetting industry
           Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley</p>
-        <div className="social-media-sobre">
-          <a className="social-media-img" href="#"><img src={Github} alt="Logo do Github" /></a>
-          <a className="social-media-img" href="#"><img src={Instagram} alt="Logo Instagram" /></a>
-          <a className="social-media-img" href=""><img src={Linkedin} alt="Logo do linkedin" /></a>
+        <div className="social-media-sobre grid-item2">
+          <a className="social-media-img" href="#"><img className="sc-img" src={Github} alt="Logo do Github" /></a>
+          <a className="social-media-img" href="#"><img className="sc-img" src={Instagram} alt="Logo Instagram" /></a>
+          <a className="social-media-img" href=""><img className="sc-img" src={Linkedin} alt="Logo do linkedin" /></a>
         </div>
       </div>
       <div className="integrante">
         <div>
-          <img className="integrante-img" src={Perfil} alt="Foto do integrante" />
+          <img className="integrante-img grid-item" src={Perfil} alt="Foto do integrante" />
         </div>
-        <p className="integrante-titulo">Olá, eu sou a <strong>Nicoly</strong></p>
-        <p className="integrante-titulo">RM 552410</p>
-        <p className="integrante-texto">is simply dummy text of the printing and typesetting industry
+        <p className="integrante-titulo grid-item3">Olá, eu sou a <strong>Nicoly</strong></p>
+        <p className="integrante-titulo grid-item5">RM 552410</p>
+        <p className="integrante-texto grid-item4 ">is simply dummy text of the printing and typesetting industry
           Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley</p>
-        <div className="social-media-sobre">
-          <a className="social-media-img" href="#"><img src={Github} alt="Logo do Github" /></a>
-          <a className="social-media-img" href="#"><img src={Instagram} alt="Logo Instagram" /></a>
-          <a className="social-media-img" href=""><img src={Linkedin} alt="Logo do linkedin" /></a>
+        <div className="social-media-sobre grid-item2">
+          <a className="social-media-img" href="#"><img className="sc-img" src={Github} alt="Logo do Github" /></a>
+          <a className="social-media-img" href="#"><img className="sc-img" src={Instagram} alt="Logo Instagram" /></a>
+          <a className="social-media-img" href=""><img className="sc-img" src={Linkedin} alt="Logo do linkedin" /></a>
         </div>
       </div>
     </div>
