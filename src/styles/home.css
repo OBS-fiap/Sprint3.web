@@ -1,0 +1,181 @@
+
+@import url(styles.css);
+
+body{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #407BFF;
+    
+
+}
+.principal-img{
+    width: 50vh;
+    height: 50%;
+}
+
+.principal{
+    width: 100%;
+    height: 100vh;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #407BFF;
+}
+
+.container-main{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #407BFF;
+}
+
+.home-titulo{
+    font-family: var(--fonte-principal);
+    font-size: 4rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: left;
+
+    margin-bottom: 2%;
+}
+
+.home-texto{
+    font-family: var(--fonte-principal);
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: left;
+}
+.container-chamado{
+    text-align: left;
+    margin-top: 8%;
+}
+.chamado{
+    background-color: transparent;
+    border: solid 2px #002359;
+    border-radius: 30px;
+    
+
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    text-align: left;
+    padding: 2% 15% 1% 15%;
+
+    color: #002359;
+}
+
+/*Section parceria*/
+
+.parceria{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 5% 0% 5% 0%;
+}
+
+
+.parceria-titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    text-transform: uppercase;
+
+    padding: 0 0 2% 0;
+}
+
+
+
+/*Section Processo*/
+.processo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 0 10% 0 10%;
+}
+
+
+.processo-titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 5% 0 5% 0;
+}
+
+.container-processo{
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.processo-item{
+    background-color: #005EF2;
+    width: 18%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.processo-texto{
+    font-family: var(--fonte-principal);
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: left;
+
+    padding: 3% 0 3% 0;
+    
+}
+
+/*Processo Box*/
+.processo-box{
+    background-color: #005EF2;
+    width: 98%;
+    height: 20vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    
+    
+    text-align: center;
+
+    margin: 5% 0 5% 0;
+}
+
+.processo-box-texto{
+    font-family: var(--fonte-principal);
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.processo-box a{
+    color: #002359;
+    font-weight: 400;
+    text-decoration: none;
+    padding-left: 1px;
+    padding-right: 2px;
+
+    align-items: center;
+    text-align: center;
+    
+}
