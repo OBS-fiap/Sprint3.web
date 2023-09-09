@@ -300,7 +300,7 @@ strong{
 
     .integrante-img{
         width: 30%;
-        padding: 5%;
+        padding: 10%;
         align-items: center;
         text-align: center;
     }
@@ -311,7 +311,7 @@ strong{
         flex-direction: row;
         align-items: center;
         justify-content:center;
-        padding-top: 15% ;
+        padding-top: 20% ;
     }
 
     .social-media-img{
@@ -324,3 +324,145 @@ strong{
        }
 }
     
+@media  (max-width: 481px){
+    .principal-sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-conteudo{
+        width: 70%;
+        grid-column: 2 / 3; /* Ocupa uma coluna */
+        margin: 40% 0 0 0;
+        
+    }
+
+    .dispositivo-img{
+        margin-bottom: 10%;
+    }
+
+    .sobre-titulo{
+        font-family: 'roboto';
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 1.8rem;
+        font-weight: bold;
+    
+        text-align: center;
+        
+        padding-bottom: 2%
+    }
+    
+    .sobre-texto{
+        width: 80%;
+        font-family: 'roboto';
+        color: #ffffff;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .container-integrantes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 0 10% 10% 10%;
+    }
+    .integrante{
+        background-color: #6494FF;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+        width: 100% ;
+        height: 20vh;
+    
+        display: grid;
+        grid-template-columns: 50% 50%; /* duas colunas de largura igual */
+        grid-template-rows: 10% 10% 10% ;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 1% 1% 1% 1%;
+        
+    }
+
+    .grid-item{
+        grid-column: 1 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 1; /* Fica na primeira linha */
+    }
+
+    .grid-item2{
+        grid-column: 1 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 2; /* Fica na primeira linha */
+    }
+
+    .grid-item3{
+        grid-column: 2 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 1; /* Fica na primeira linha */
+    }
+
+    .grid-item4{
+        grid-column: 2 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 3; /* Fica na primeira linha */
+
+    }
+
+    .grid-item5{
+        grid-column: 2 ; /* Começa na segunda coluna e termina na quarta coluna */
+        grid-row: 2; /* Fica na primeira linha */
+
+    }
+
+
+    .integrante-titulo{
+        font-family: 'roboto';
+        
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: bold;
+    
+        text-align: center;
+        padding: 10% 10% 0 10%;
+    }
+
+    .integrante-texto{
+
+        font-family: 'roboto';
+        
+        color: #ffffff;
+        font-size: 10px;
+        text-align: center;
+        padding: 16% 10% 0 10%;
+    }
+
+    .integrante-img{
+        width: 30%;
+        padding: 10%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-media-sobre{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:center;
+        padding-top: 20% ;
+    }
+
+    .social-media-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 20% 0% 0 0%;   
+
+       }
+
+       .sc-img{
+        width: 30px;
+    }
+}
