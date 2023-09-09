@@ -17,7 +17,7 @@ export default function Faq() {
             <div>
                 <details>
                     <summary><p className="titulo-duvida">Aqui é um exemplo de duvida</p>
-                    <img src={Seta} alt="Seta" /></summary>
+                    <img className='faq-seta' src={Seta} alt="Seta" /></summary>
                         <p className="texto-duvida">is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since ndustry's standard du ndustry's st
@@ -26,7 +26,7 @@ export default function Faq() {
                 </details>
                 <details>
                 <summary><p className="titulo-duvida">Aqui é um exemplo de duvida</p>
-                    <img src={Seta} alt="Seta" /></summary>
+                    <img className='faq-seta' src={Seta} alt="Seta" /></summary>
                     <p className="texto-duvida">is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since ndustry's standard du ndustry's st
@@ -35,7 +35,7 @@ export default function Faq() {
                 </details>
                 <details>
                 <summary><p className="titulo-duvida">Aqui é um exemplo de duvida</p>
-                    <img src={Seta} alt="Seta" /></summary>
+                    <img className='faq-seta' src={Seta} alt="Seta" /></summary>
                     <p className="texto-duvida">is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since ndustry's standard du ndustry's st
@@ -44,7 +44,7 @@ export default function Faq() {
                 </details>
                 <details>
                 <summary><p className="titulo-duvida">Aqui é um exemplo de duvida</p>
-                    <img src={Seta} alt="Seta" /></summary>
+                    <img className='faq-seta' src={Seta} alt="Seta" /></summary>
                     <p className="texto-duvida">is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since ndustry's standard du ndustry's st
@@ -53,7 +53,7 @@ export default function Faq() {
                 </details>
                 <details>
                 <summary><p className="titulo-duvida">Aqui é um exemplo de duvida</p>
-                    <img src={Seta} alt="Seta" /></summary>
+                    <img className='faq-seta' src={Seta} alt="Seta" /></summary>
                     <p className="texto-duvida">is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since ndustry's standard du ndustry's st
@@ -62,7 +62,7 @@ export default function Faq() {
                 </details>
                 <details>
                 <summary><p className="titulo-duvida">Aqui é um exemplo de duvida</p>
-                    <img src={Seta} alt="Seta" /></summary>                    <p className="texto-duvida">is simply dummy text of the printing and
+                    <img className='faq-seta' src={Seta} alt="Seta" /></summary>                    <p className="texto-duvida">is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since ndustry's standard du ndustry's st
                     the 1500s, when an unknow printer took a galley ndustry's standard du ndustry's s
