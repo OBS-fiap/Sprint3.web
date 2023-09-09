@@ -22,7 +22,7 @@ export default function Login() {
                             <label htmlFor="password">Senha</label>
                             <input type="password" id="password" placeholder="Digite sua senha" />
                         </div>
-                        <Link to="../" className="esqueci-senha">Esqueci minha senha</Link>
+                        <Link to="/EsqueceuSenha" className="esqueci-senha">Esqueci minha senha</Link>
                         <button className="btn-login" type="submit">Acessar</button>
                     </form>
                 </div>
