@@ -4,7 +4,7 @@ footer{
   background-color: #002359;
   width: 100%;
   height: 20vh;
-  
+ 
 }
 .social-medias {
   display: flex; /* Use display flex para centralizar os ícones horizontalmente */
@@ -16,9 +16,15 @@ footer{
 .social-media-logo {
   margin: 0 10px; /* Adicione margem entre os ícones conforme necessário */
   display: flex; /* Use display flex para centralizar os ícones horizontalmente */
-  padding: 4% 0 0 0;;
+  padding: 5% 0;
+  justify-content: center;
+  align-items: center;
 }
 
+.footer-img{
+  width: 50%;
+  text-align: center;
+}
 
 
 /*CSS da barra de navegação*/
@@ -32,12 +38,12 @@ header{
   background-color: #ffffff;
   height: 5vh;
 
-  margin-left: 5%;
+  margin-left: 2%;
 
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 
   font-family: 'roboto', sans-serif;
   text-transform: uppercase;
@@ -48,4 +54,5 @@ header{
 .menu-link{
   text-decoration: none;
   color: #005EF2;
+  margin: 0 5% 0 5%;
 }
