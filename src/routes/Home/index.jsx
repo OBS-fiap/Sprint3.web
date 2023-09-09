@@ -44,23 +44,23 @@ export default function Home() {
                 
                 <div className="container-processo">
                     <div className="processo-item">
-                        <img className="" src={Chatbot} alt="Um robo com celular"/>
+                        <img className="processo-img" src={Chatbot} alt="Um robo com celular"/>
                         <p className="processo-texto">Abrir chamado</p>
                     </div>
                     <div  className="processo-item">
-                        <img className="" src={Carro} alt="Um carro azul"/>
+                        <img className="processo-img" src={Carro} alt="Um carro azul"/>
                         <p className="processo-texto">Selecionar Automovel</p>
                     </div>
                     <div className="processo-item" >
-                        <img className="" src={Mapa} alt="Mapa localizando uma pessoa"/>
+                        <img className="processo-img" src={Mapa} alt="Mapa localizando uma pessoa"/>
                         <p className="processo-texto">Enviar Localização</p>
                     </div>
                     <div className="processo-item">
-                        <img className="" src={Camera} alt="Camera forografica"/>
+                        <img className="processo-img" src={Camera} alt="Camera forografica"/>
                         <p className="processo-texto">Tirar foto</p>
                     </div>
                     <div className="processo-item">
-                        <img className="" src={Batida} alt="Batida de dois veiculos"/>
+                        <img className="processo-img" src={Batida} alt="Batida de dois veiculos"/>
                         <p className="processo-texto">Descrever Ocorrido</p>
                     </div>
                 </div>
