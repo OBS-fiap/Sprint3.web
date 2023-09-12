@@ -1,6 +1,6 @@
 .esqueceu-senha-principal{
-    width: 100%;
-    height: 70vh;
+    width: 100vw;
+    height: 80vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 .esqueceu-senha-container{
-    width: 80%;
+    width: 80vw;
     height: 100%;
     display: flex;
     align-items: center;
@@ -19,22 +19,37 @@
 }
 
 .senha-texto{
-    font-family: 1.5rem;
+    font-family: 'roboto';
     color: #ffffff;
+    
 }
 
 .btn-enviar-senha{
-    width: 40%;
-    height: 10vh;
+    width: 30%;
+    
     background-color:#B0DFF9 ;
     font-family: 'roboto';
     color: #005EF2;
+    font-weight: bold;
+    font-size: 1.5rem;
     text-align: center;
+    padding: 1% 0 1% 0;
+    border: none;
+    border-radius: 10px;
 
-    border-radius: 15px;
+    
 }
 
 .input-email{
+    width: 30vw;
     background-color: #ffffff;
     flex-shrink: 0;
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: 15px 15px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.img-senha{
+   width:  30%;
 }
