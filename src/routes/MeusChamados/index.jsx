@@ -1,4 +1,4 @@
-export default function AbrirChamadoFoto() {
+export default function MeusChamados() {
     return (
         <div>
         <h1>Error</h1>
