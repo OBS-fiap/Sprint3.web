@@ -41,8 +41,36 @@ const router = createBrowserRouter ([
       },
 
       {
-        pathq: '/esqueceuSenha',
+        path: '/esqueceuSenha',
         element: <EsqueceuSenha />,
+      },
+      {
+        path: '/homeLogin',
+        element: <HomeLogin />,
+      },
+      {
+        path: '/meuPerfil',
+        element: <MeuPerfil />,
+      },
+      {
+        path: '/meusChamados',
+        element: <MeusChamados />,
+      },
+      {
+        path: '/abrirChamadoLocal',
+        element: <AbrirChamadoLocal />,
+      },
+      {
+        path: '/abrirChamadoFoto',
+        element: <AbrirChamadoFoto />,
+      },
+      {
+        path: '/abrirChamadoOcorrido',
+        element: <AbrirChamadoOcorrido />,
+      },
+      {
+        path: '/abrirChamadoConfirmacao',
+        element: <AbrirChamadoConfirmacao />,
       },
     ]
   }
