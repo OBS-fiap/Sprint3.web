@@ -1,5 +1,5 @@
 import '../../styles/reset.css'
-import '../../styles/AbrirChamado.css'
+import '../../styles/abrirchamado.css'
 
 import TirarFoto from '../../assets/tirar-foto.png'
 import CarregarFoto from '../../assets/carregar-foto.png'
