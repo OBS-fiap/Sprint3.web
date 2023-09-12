@@ -1,5 +1,5 @@
 import '../../styles/reset.css'
-import '../../styles/meuperfil.css'
+import '../../styles/abrirchamado.css'
 
 //IMAGENS
 

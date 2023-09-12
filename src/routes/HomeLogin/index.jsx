@@ -1,6 +1,6 @@
 
 import '../../styles/reset.css';
-import '../../styles/homelogin.css';
+import '../../styles/abrirchamado.css';
 
     //Importando as fotos
     
