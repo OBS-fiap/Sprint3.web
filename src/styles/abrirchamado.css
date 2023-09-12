@@ -1,0 +1,42 @@
+/*CSS do abrir chamado confirmacao*/
+.ac-principal{
+    background-color: #ffffff;
+    height: 80vh;
+}
+.container-ac-confirmacao{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.ac-img{
+    width: 40%;
+}
+.ac-confirmacao-titulo{
+    font-family: 'roboto';
+    font-size: 1.5rem;
+    color: #005EF2;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+
+}
+
+.ac-confirmacao-texto{
+   
+    font-family: 'roboto';
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+}
+
+.c-confirmacao-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
