@@ -12,6 +12,13 @@ import Sobre from './routes/Sobre/index.jsx'
 import Faq from './routes/Faq/index.jsx'
 import EsqueceuSenha from './routes/EsqueceuSenha/index.jsx'
 import Error from './routes/Error/index.jsx'
+import AbrirChamadoConfirmacao from './routes/AbrirChamadoConfirmacao/index.jsx'
+import AbrirChamadoFoto from './routes/AbrirChamadoFoto/index.jsx'
+import AbrirChamadoLocal from './routes/AbrirChamadoLocal/index.jsx'
+import AbrirChamadoOcorrido from './routes/AbrirChamadoOcorrido/index.jsx'
+import HomeLogin from './routes/HomeLogin/index.jsx'
+import MeuPerfil from './routes/MeuPerfil/index.jsx'
+import MeusChamados from './routes/MeusChamados/index.jsx'
 
 //Configurar Rotas
 const router = createBrowserRouter ([
