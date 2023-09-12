@@ -43,4 +43,147 @@
     padding-right: 5.5rem;
 
 
-} 
+}
+
+/*Css abrir chamado local*/
+.localformulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+
+}
+
+hr{
+    width: 59vw;
+    background-color: #005EF2;
+    padding: 0.1rem;
+    margin: 0.5rem 0 0.4rem;
+    border: 1px solid #005EF2;
+}
+
+.abrirchamadotitulo{
+    font-size: 24px;
+    font-family: 'roboto', sans-serif;
+    text-transform: uppercase;
+    color: #005EF2;
+    font-weight: 700;
+    justify-content: left;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+.principalabrirchamado{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.opcoeschamado{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    width: 51vw;
+    height: 12vh;
+    margin-bottom: 2rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+
+}
+
+.tituloformulario{
+    font-family: 'roboto', sans-serif;
+    display: flex;
+
+}
+
+.inputmapa{
+    width: 30vw;
+    border-radius: 0;
+}
+
+.inputnumero{
+    width: 3vw;
+    border-radius: 0;
+}
+
+.inputcidade{
+    width: 12vw;
+    border-radius: 0;
+}
+
+.inputendereco{
+    width: 32vw;
+    border-radius: 0;
+}
+
+.inputbairro{
+    width: 16vw;
+    border-radius: 0;
+}
+
+.inputcep{
+    width: 12vw;
+    border-radius: 0;
+
+}
+
+.inputestado{
+    width: 24vw;
+    border-radius: 0;
+}
+
+.inputreferencia{
+    width: 16vw;
+    border-radius: 0;
+
+}
+
+.inputocorrido{
+    width: 28vw;
+    border-radius: 0;
+
+}
+
+.form__endereco{
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    grid-template-columns: 75%;
+    background-color: #EEEEEE;
+    width: 50vw;
+    padding: 1rem;
+}
+.formulariobotao{
+
+    font-weight: 700;
+    border: none;
+    background-color: #EEEEEE;
+    margin: 5rem;
+    padding: 2rem;
+}
+
+.formulariobotao:hover{
+    border-color: rgb(0, 0, 0);
+    border-radius: 45px;
+    color: #FFFFFF;
+    background-color: #005EF2;
+    transition: 1s;
+}
+
+form{
+    display: inline-grid;
+    flex-direction: row;
+    text-align: flex-end;
+    flex-wrap: nowrap;
+    grid-template-columns: 1fr;
+    align-content: center;
+
+}
