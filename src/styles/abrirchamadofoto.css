@@ -1,42 +1,45 @@
-/*CSS do abrir chamado confirmacao*/
-.ac-principal{
-    background-color: #ffffff;
-    height: 80vh;
-}
-.container-ac-confirmacao{
+.principal__abrir__chamado{
     width: 100%;
+}
+
+
+.local__upload__foto{
     display: flex;
+    align-content: center;
+    justify-content: center;
+
+    width: auto;
+    height: 100%;
+    margin-top: 1rem;
+}
+
+.foto__chamado{
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    align-content: center;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-}
-.ac-img{
-    width: 40%;
-}
-.ac-confirmacao-titulo{
-    font-family: 'roboto';
-    font-size: 1.5rem;
-    color: #005EF2;
-    font-weight: bold;
-    text-transform: uppercase;
-    
+    background-color: #EEEEEE;
+    width: 75%;
+    margin-bottom: 2rem;
+    padding: 1rem 0 0 1rem;
+
 
 }
 
-.ac-confirmacao-texto{
-   
-    font-family: 'roboto';
-    font-size: 1.5rem;
-    color: #000000;
-    text-align: center;
+.foto__chamado:nth-child(2){
+    grid-row: span 2;
+
+
 }
 
-.c-confirmacao-conteudo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
+
+.titulo__foto{
+    font-weight: 400;
+    font-family: 'roboto', sans-serif;
+    justify-content: left;
+    padding-right: 5.5rem;
+
+
 }

@@ -1,5 +1,5 @@
 import '../../styles/reset.css'
-import '../../styles/abrirchamado.css'
+import '../../styles/abrirchamadolocal.css'
 
  export default function AbrirChamadoLocal() {
 

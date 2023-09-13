@@ -1,6 +1,6 @@
 
 import '../../styles/reset.css'
-import '../../styles/abrirchamado.css'
+import '../../styles/meuschamados.css'
 
 
 //Imagens

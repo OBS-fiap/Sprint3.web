@@ -1,0 +1,530 @@
+/*Css do abrir chamado foto*/
+.principal__abrir__chamado{
+    width: 100%;
+}
+
+
+.local__upload__foto{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    width: auto;
+    height: 100%;
+    margin-top: 1rem;
+}
+
+.foto__chamado{
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    flex-direction: row;
+    background-color: #EEEEEE;
+    width: 75%;
+    margin-bottom: 2rem;
+    padding: 1rem 0 0 1rem;
+
+
+}
+
+.foto__chamado:nth-child(2){
+    grid-row: span 2;
+
+
+}
+
+
+.titulo__foto{
+    font-weight: 400;
+    font-family: 'roboto', sans-serif;
+    justify-content: left;
+    padding-right: 5.5rem;
+
+
+}
+
+/*Css abrir chamado local*/
+.local__formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+
+}
+
+hr{
+    width: 59vw;
+    background-color: #005EF2;
+    padding: 0.1rem;
+    margin: 0.5rem 0 0.4rem;
+    border: 1px solid #005EF2;
+}
+
+.abrir__chamado__titulo{
+    font-size: 24px;
+    font-family: 'roboto', sans-serif;
+    text-transform: uppercase;
+    color: #005EF2;
+    font-weight: 700;
+    justify-content: left;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+.principal__abrir__chamado{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.opcoes__chamado{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    width: 51vw;
+    height: 12vh;
+    margin-bottom: 2rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+
+}
+
+.titulo__formulario{
+    font-family: 'roboto', sans-serif;
+    display: flex;
+
+}
+
+.input__mapa{
+    width: 30vw;
+    border-radius: 0;
+}
+
+.input__numero{
+    width: 3vw;
+    border-radius: 0;
+}
+
+.input__cidade{
+    width: 12vw;
+    border-radius: 0;
+}
+
+.input__endereco{
+    width: 32vw;
+    border-radius: 0;
+}
+
+.input__bairro{
+    width: 16vw;
+    border-radius: 0;
+}
+
+.inpu__tcep{
+    width: 12vw;
+    border-radius: 0;
+
+}
+
+.input__estado{
+    width: 24vw;
+    border-radius: 0;
+}
+
+.input__referencia{
+    width: 16vw;
+    border-radius: 0;
+
+}
+
+.input__ocorrido{
+    width: 28vw;
+    border-radius: 0;
+
+}
+
+.form__endereco{
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    grid-template-columns: 75%;
+    background-color: #EEEEEE;
+    width: 50vw;
+    padding: 1rem;
+}
+.formulario__botao{
+
+    font-weight: 700;
+    border: none;
+    background-color: #EEEEEE;
+    margin: 5rem;
+    padding: 2rem;
+}
+
+.formulario__botao:hover{
+    border-color: rgb(0, 0, 0);
+    border-radius: 45px;
+    color: #FFFFFF;
+    background-color: #005EF2;
+    transition: 1s;
+}
+
+form{
+    display: inline-grid;
+    flex-direction: row;
+    text-align: flex-end;
+    flex-wrap: nowrap;
+    grid-template-columns: 1fr;
+    align-content: center;
+
+}
+
+/*CSS Home Login*/
+/* navbar */
+.nav-full-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 8% 0% 8% 0% ;
+
+    width: 100%;
+    background-color: #407BFF;
+    }
+
+.div_1, .div_2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+ /*a*/
+navbar a{
+    align-content: space-around;
+    display: grid;
+    grid-column: 50% 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #005EF2;
+    color: #ffffff;
+    font-family: 'roboto', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+
+    width: 5rem;
+    height: 10rem;
+    padding: 3rem 6rem 0rem 5rem;
+    margin: 0rem 3rem 2rem 0rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.30);
+    line-height: 1;
+    }
+
+/*Texto do titulo e parágrafo*/
+.main__div__h1{
+    display: flex;
+    font-family: 'roboto', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 3rem;
+
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    padding: 1.5rem 0 1.5rem 0;
+    width: 100%;
+
+
+
+    }
+
+
+.main__div__h1__b{
+    display: flex;
+    font-family: 'roboto', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 3rem;
+    font-weight: 800;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+/*MEU PERFIL*/
+.container__mariana{
+    font-family: 'roboto', sans-serif;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #EEEEEE;
+    justify-content: center;
+    width: 60%;
+    align-items: flex-start;
+
+    padding: 2rem;
+    margin-left: 18%;
+    margin-top: 5%;
+}
+
+
+.nome__mariana{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    justify-self: center;
+}
+
+.perfil__mariana{
+    margin-bottom: 2rem;
+    justify-self: center;
+}
+
+.email__mariana{
+    justify-self: center;
+}
+
+
+.container__veiculo{
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 80% ;
+    grid-template-rows: 1fr 1fr;
+    background-color: #EEEEEE;
+    width: 60%;
+    align-items: flex-start;
+
+    padding: 2rem;
+    margin-left: 18%;
+    margin-top: 1%;
+
+}
+
+
+.titulo__veiculo__perfil{
+    font-weight: 700;
+    font-size: 2rem;
+    justify-self: center;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    padding-bottom: 1rem;
+    background-color: #005EF2;
+    width: 93%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.perfil__veiculo{
+    display: flex;
+    margin-bottom: 2rem;
+    margin-left: 20rem;
+
+}
+
+.atributos__veiculo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-direction: column;
+    width: 100%;
+}
+
+.marca__veiculo{
+    padding-bottom: 2rem;
+}
+
+.marca__veiculo img{
+    justify-content: center;
+    width: 3rem;
+
+
+
+
+
+    margin: 0 0 2rem 12rem ;
+    padding-top: 2rem;
+
+}
+
+.marca__veiculo h1{
+    display: grid;
+    align-self: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-right: 2rem;
+
+}
+
+.marca__veiculo p{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    align-self: end;
+
+    padding-right: 2rem;
+}
+.modelo__veiculo{
+    display: grid;
+    margin-bottom: 2rem;
+
+
+
+}
+
+.modelo__veiculo img{
+    width: 3rem;
+
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+
+    align-self: center;
+
+}
+
+.modelo__veiculo h1{
+    display: grid;
+    align-self: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.modelo__veiculo p{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    align-self: end;
+}
+
+.atributos__veiculo{
+    display: grid;
+}
+
+.container__chamados{
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 80% ;
+    grid-template-rows: 1fr 1fr;
+    background-color: #EEEEEE;
+    width: 60%;
+    align-items: flex-start;
+
+    padding: 2rem;
+    margin-left: 18%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.container__chamados b{
+    color: #005EF2;
+    font-weight: 700;
+}
+
+.container__chamados h1{
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.container__chamados p{
+    margin-bottom: 0.5rem;
+}
+
+/*MEUS CHAMADOS*/
+.container__acompanhar{
+    font-family: 'roboto', sans-serif;
+    display: grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #EEEEEE;
+    justify-content: center;
+    width: 60%;
+    align-items: flex-start;
+
+    padding: 2rem;
+    margin-left: 18%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.titulo__andamento{
+    font-weight: 700;
+    font-family: 'roboto', sans-serif;
+    margin-bottom: 2rem;
+    font-size: 24px;
+}
+
+.titulo__andamento b{
+    color: #005EF2;
+}
+
+b{
+    font-weight: 700;
+    margin-bottom: 1rem ;
+}
+
+.descritivo__abertura{
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0.5rem;
+}
+
+.descritivo__abertura h4{
+    margin-bottom: 1rem;
+}
+
+
+.ocorrido__foto{
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 0.5rem;
+}
+
+.ocorrido{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fotos__veiculos{
+    display: grid;
+    flex-direction: column;
+    grid-template-rows: 1fr;
+    margin-bottom: 0.5rem;
+}
+
+.fotos__veiculos h4{
+    display: flex;
+    flex-direction: row;
+}
+
+.fotos__veiculos img{
+    padding-top: 1rem;
+}
