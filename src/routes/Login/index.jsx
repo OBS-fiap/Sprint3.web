@@ -6,6 +6,8 @@ import { usuarios } from "../../components/usuarios";
 
 
 export default function Login() {
+    const inputEmail = document.querySelector('#email')
+    const inputPassword = document.querySelector("#password")
 
     return (
         <div>
