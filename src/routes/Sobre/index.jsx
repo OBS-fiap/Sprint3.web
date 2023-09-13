@@ -49,8 +49,8 @@ return (
         <div>
           <img className="integrante-img grid-item" src={Perfil} alt="Foto do integrante" />
         </div>
-        <p className="integrante-titulo grid-item3">Olá, eu sou a <strong>Nicoly</strong></p>
-        <p className="integrante-titulo grid-item5">RM 552410</p>
+        <p className="integrante-titulo grid-item3">Olá, eu sou o <strong>Vitor</strong></p>
+        <p className="integrante-titulo grid-item5">RM 552228</p>
         <p className="integrante-texto grid-item4 ">is simply dummy text of the printing and typesetting industry
           Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley</p>
@@ -64,8 +64,8 @@ return (
         <div>
           <img className="integrante-img grid-item" src={Perfil} alt="Foto do integrante" />
         </div>
-        <p className="integrante-titulo grid-item3">Olá, eu sou a <strong>Nicoly</strong></p>
-        <p className="integrante-titulo grid-item5">RM 552410</p>
+        <p className="integrante-titulo grid-item3">Olá, eu sou o <strong>Gustavo</strong></p>
+        <p className="integrante-titulo grid-item5">RM 552466</p>
         <p className="integrante-texto grid-item4 ">is simply dummy text of the printing and typesetting industry
           Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley</p>
@@ -79,8 +79,8 @@ return (
         <div>
           <img className="integrante-img grid-item" src={Perfil} alt="Foto do integrante" />
         </div>
-        <p className="integrante-titulo grid-item3">Olá, eu sou a <strong>Nicoly</strong></p>
-        <p className="integrante-titulo grid-item5">RM 552410</p>
+        <p className="integrante-titulo grid-item3">Olá, eu sou o <strong>Ronald</strong></p>
+        <p className="integrante-titulo grid-item5">RM 552364</p>
         <p className="integrante-texto grid-item4 ">is simply dummy text of the printing and typesetting industry
           Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley</p>
@@ -94,8 +94,8 @@ return (
         <div>
           <img className="integrante-img grid-item" src={Perfil} alt="Foto do integrante" />
         </div>
-        <p className="integrante-titulo grid-item3">Olá, eu sou a <strong>Nicoly</strong></p>
-        <p className="integrante-titulo grid-item5">RM 552410</p>
+        <p className="integrante-titulo grid-item3">Olá, eu sou a <strong>Nicolly</strong></p>
+        <p className="integrante-titulo grid-item5">RM 552579</p>
         <p className="integrante-texto grid-item4 ">is simply dummy text of the printing and typesetting industry
           Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley</p>
