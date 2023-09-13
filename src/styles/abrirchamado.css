@@ -1,10 +1,10 @@
 /*Css do abrir chamado foto*/
-.principalabrirchamado{
+.principal__abrir__chamado{
     width: 100%;
 }
 
 
-.localuploadfoto{
+.local__upload__foto{
     display: flex;
     align-content: center;
     justify-content: center;
@@ -14,7 +14,7 @@
     margin-top: 1rem;
 }
 
-.fotochamado{
+.foto__chamado{
     display: grid;
     align-items: center;
     grid-template-rows: 1fr 1fr;
@@ -29,7 +29,7 @@
 
 }
 
-.fotochamado:nth-child(2){
+.foto__chamado:nth-child(2){
     grid-row: span 2;
 
 
@@ -46,7 +46,7 @@
 }
 
 /*Css abrir chamado local*/
-.localformulario{
+.local__formulario{
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -64,7 +64,7 @@ hr{
     border: 1px solid #005EF2;
 }
 
-.abrirchamadotitulo{
+.abrir__chamado__titulo{
     font-size: 24px;
     font-family: 'roboto', sans-serif;
     text-transform: uppercase;
@@ -76,7 +76,7 @@ hr{
 }
 
 
-.principalabrirchamado{
+.principal__abrir__chamado{
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@ hr{
 
 }
 
-.opcoeschamado{
+.opcoes__chamado{
     display: flex;
     align-items: left;
     flex-direction: column;
@@ -97,55 +97,55 @@ hr{
 
 }
 
-.tituloformulario{
+.titulo__formulario{
     font-family: 'roboto', sans-serif;
     display: flex;
 
 }
 
-.inputmapa{
+.input__mapa{
     width: 30vw;
     border-radius: 0;
 }
 
-.inputnumero{
+.input__numero{
     width: 3vw;
     border-radius: 0;
 }
 
-.inputcidade{
+.input__cidade{
     width: 12vw;
     border-radius: 0;
 }
 
-.inputendereco{
+.input__endereco{
     width: 32vw;
     border-radius: 0;
 }
 
-.inputbairro{
+.input__bairro{
     width: 16vw;
     border-radius: 0;
 }
 
-.inputcep{
+.inpu__tcep{
     width: 12vw;
     border-radius: 0;
 
 }
 
-.inputestado{
+.input__estado{
     width: 24vw;
     border-radius: 0;
 }
 
-.inputreferencia{
+.input__referencia{
     width: 16vw;
     border-radius: 0;
 
 }
 
-.inputocorrido{
+.input__ocorrido{
     width: 28vw;
     border-radius: 0;
 
@@ -161,7 +161,7 @@ hr{
     width: 50vw;
     padding: 1rem;
 }
-.formulariobotao{
+.formulario__botao{
 
     font-weight: 700;
     border: none;
@@ -170,7 +170,7 @@ hr{
     padding: 2rem;
 }
 
-.formulariobotao:hover{
+.formulario__botao:hover{
     border-color: rgb(0, 0, 0);
     border-radius: 45px;
     color: #FFFFFF;
@@ -233,7 +233,7 @@ navbar a{
     }
 
 /*Texto do titulo e parágrafo*/
-.maindivh1{
+.main__div__h1{
     display: flex;
     font-family: 'roboto', sans-serif;
     background-color: #ffffff;
@@ -254,7 +254,7 @@ navbar a{
     }
 
 
-.maindivh1__b{
+.main__div__h1__b{
     display: flex;
     font-family: 'roboto', sans-serif;
     background-color: #ffffff;
@@ -318,6 +318,8 @@ navbar a{
     margin-top: 1%;
 
 }
+
+
 .titulo__veiculo__perfil{
     font-weight: 700;
     font-size: 2rem;
@@ -383,8 +385,7 @@ navbar a{
 
     padding-right: 2rem;
 }
-
-.modeloveiculo{
+.modelo__veiculo{
     display: grid;
     margin-bottom: 2rem;
 
@@ -419,6 +420,7 @@ navbar a{
     text-align: end;
     align-self: end;
 }
+
 .atributos__veiculo{
     display: grid;
 }

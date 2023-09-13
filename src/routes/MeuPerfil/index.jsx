@@ -1,5 +1,5 @@
 import '../../styles/reset.css'
-import '../../styles/abrirchamado.css'
+import '../../styles/meuperfil.css'
 
 //IMAGENS
 
@@ -45,7 +45,7 @@ export default function MeuPerfil() {
                     </div>
                 </div>
             </section>
-            <section className='meus__chamados'>
+            <section className='container__chamados'>
                 <div className='titulo__Veiculo__chamado'>
                     <h2>MEUS CHAMADOS</h2>
                 </div>
