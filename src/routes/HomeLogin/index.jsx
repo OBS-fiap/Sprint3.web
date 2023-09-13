@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom';
 
 import '../../styles/reset.css';
-import '../../styles/homelogin.css';
+import '../../styles/abrirchamado.css';
 
     //Importando as fotos
-    
+
 import Add from '../../assets/adicionar.svg'
 import Pessoa from '../../assets/pessoa.svg';
 import Cancelar from '../../assets/cancelar.svg';
@@ -17,25 +18,22 @@ export default function PaginaInicial() {
                 <div className="main__div__h1">
                     <h1><b className="main__div__h1__b">OLÁ MARIANA,</b></h1>
                     <p>Bem vindo(a) de volta!</p>
-                </div>   
-            
+                </div>
+
                 <navbar className="nav-full-content">
                     <div className="div_1">
-                        <a href="#">
-                        <span><img src={Pessoa} alt="imagem de uma pessoa"/></span> 
-                            <p>MEU PERFIL</p>
-                        </a>
-                        <a href="#">
-                            <span><img src={Add} alt="imagem de um circulo com mais no meio"/></span>
-                            <p>ABRIR CHAMADO</p>
-                        </a>
-                        
-                        
-                        <a href="#">
-                            <span><img src={Relogio} alt="imagem de um relógio"/></span>
-                            ACOMPANHAR
-                        </a>
-                    </div>
+                    <Link to="/meuPerfil">
+                        <span><img src={Pessoa} alt="imagem de uma pessoa" /></span>
+                        <p>MEU PERFIL</p>
+                    </Link>
+                    <Link to="/abrirChamadoLocal">
+                        <span><img src={Add} alt="imagem de um círculo com mais no meio" /></span>
+                        <p>ABRIR CHAMADO</p>
+                    </Link>
+                    <Link to="/meusChamados">
+                        <span><img src={Relogio} alt="imagem de um relógio" /></span>
+                        ACOMPANHAR
+                    </Link>
                     <div className="div_2">
                         <a href="#">
                             <span><img src={Carro} alt="formato de um carro"/></span>
@@ -45,6 +43,7 @@ export default function PaginaInicial() {
                             <span><img src={Cancelar} alt="circulo com x no meio"/></span>
                             CANCELAR
                         </a>
+                    </div>
                     </div>
                 </navbar>
             </main>
